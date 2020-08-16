@@ -130,6 +130,19 @@ body {
   height: 100%;
   background: white;
 }
+.resume .resume_left .resume_language ul li:before{  
+  content: "";
+  margin: 5px;  
+  position: relative;
+  top: -5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  /* border: 2px solid green; */
+  border: 2px solid white;
+  
+}
+
 
 .resume .resume_right {
   width: 520px;
