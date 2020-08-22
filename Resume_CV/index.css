@@ -6,7 +6,7 @@
 }
 
 body {
-  background: black;
+  background-color: black;
   font-size: 14px;
   line-height: 22px;
   
@@ -31,10 +31,11 @@ body {
   height: auto;
   display: flex;
   margin: 50px;
+  border: 2px solid black;
 }
 .resume .resume_left {
   width: 280px;
-  background: #4d4d4d;
+  background-color: #4d4d4d;
 }
 .resume .resume_left .resume_profile {
   width: 100%;
@@ -86,7 +87,7 @@ body {
 .resume .resume_left ul li .icon {
   width: 35px;
   height: 35px;
-  background: white;
+  background-color: white;
   /* color: skyblue; */
   color: #4d4d4d;
   border-radius: 50%;
@@ -123,7 +124,7 @@ body {
   width: 60%;
   height: 5px;
   margin: 0 5px;
-  background: grey;
+  background-color: grey;
   position: relative;
 }
 .resume .resume_left .resume_skills ul li .skill_per {
@@ -134,7 +135,7 @@ body {
   top: 0;
   left: 0;
   height: 100%;
-  background: white;
+  background-color: white;
 }
 .resume .resume_left .resume_language ul li:before{  
   content: "";
@@ -146,13 +147,13 @@ body {
   border-radius: 50%;
   /* border: 2px solid green; */
   border: 2px solid white;
-  background: white;
+  background-color: white;
 }
 
 
 .resume .resume_right {
   width: 520px;
-  background: white;
+  background-color: white;
   padding: 25px;
 }
 .resume .resume_right .bold {
@@ -234,7 +235,7 @@ body {
   width: 50px;
   height: 2px;
   /* background: green; */
-  background: #4d4d4d;
+  background-color: #4d4d4d;
 }
 
 .resume .resume_right .resume_hobby ul li:last-child:before {
